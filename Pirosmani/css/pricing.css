@@ -1,0 +1,121 @@
+.main {
+}
+.pricing {
+}
+.pricing__container {
+    max-width: 1670px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.pricing__title-wrap {
+    margin: 0 auto;
+    max-width: 1356px;
+    margin-bottom: 123px;
+}
+.pricing__title {
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+}
+.pricing__plans-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 76px;
+}
+.pricing__plans-card {
+    padding: 38px 33px 35px 35px;
+    background: #131313;
+    border: 1px solid #707070;
+    border-radius: 18px;
+
+}
+.plans__card-title {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 75px;
+    margin-bottom: 1px;
+}
+.plans__card-subtitle {
+    font-size: 28px;
+    line-height: 42px;
+    color: #B4B1B1;
+    margin-bottom: 14px;
+}
+.plans__price {
+    font-weight: 700;
+    font-size: 69px;
+    line-height: 104px;
+    margin-bottom: 108px;
+}
+.plans__price.plan2 {
+    margin-bottom: 0;
+}
+.plans__price span {
+    font-size: 26px;
+    line-height: 39px;
+    color: #B4B1B1;
+}
+.price__sub {
+    font-size: 28px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: #B4B1B1;
+    margin-bottom: 67px;
+}
+.text-1 {
+    font-size: 28px;
+    line-height: 42px;
+    margin-bottom: 46px;
+}
+.text-1 span {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 40px;
+}
+.text-1-sub {
+    font-size: 24px;
+    line-height: 36px;
+    color: #B4B1B1;
+    padding-left: 32px;
+    margin-bottom: 53px;
+}
+.plan__func {
+}
+.plan__func-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    margin-bottom: 28px;
+}
+.plan__func-item {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    background-image: url("../img/ui/check.svg");
+    background-repeat: no-repeat;
+    background-size: 24px 18px;
+    background-position: left center;
+    padding-left: 34px;
+}
+.plan__func-item:last-child {
+    margin-bottom: 0;
+}
+.blan-us-btn {
+    margin-top: 79px;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 40px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+    border: 3.5px solid #4681E7;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.blan-us-btn.plan2 {
+    margin-top: 41px;
+}
+.blan-us-btn:hover {
+    color: #4681E7;
+}

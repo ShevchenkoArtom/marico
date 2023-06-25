@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marico</title>
+
+    <link rel="stylesheet" href="./css/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="#" class="logo"><img src="./img/logo.svg" alt="Marico logo" class="logo-pic"></a>
+                    <div class="header__burger"><span></span></div>
+                    <nav class="navigation">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#" class="nav__link">Use Cases
+                                <img src="./img/ui/Down_arrow.svg" alt="" class="arrow_down">
+                                <ul class="nav__submenu">
+                                    <li class="nav__submenu-item"><a href="#" class="nav__submenu-link">Step 1</a></li>
+                                    <li class="nav__submenu-item"><a href="#" class="nav__submenu-link">Step 2</a></li>
+                                    <li class="nav__submenu-item"><a href="#" class="nav__submenu-link">Step 3</a></li>
+                                </ul>
+                            </a></li>
+                            <li class="nav__item"><a href="about.html" class="nav__link nav__link_active">About</a></li>
+                            <li class="nav__item"><a href="pricving.html" class="nav__link">Pricing</a></li>
+                            <li class="nav__item"><a href="blog.html" class="nav__link">Blog</a></li>
+                        </ul>
+                        <div class="autofication">
+                            <a href="login.html" class="autofication__login">Login</a>
+                            <a href="signup.html" class="autofication__signup">Sign Up</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="login">
+                <div class="login__inner">
+                    <div class="autorisation__title-wrap">
+                        <h1 class="autorisation__title">Sign up</h1>
+                        <p class="autorisation__subtitle">Fill all field for create an account.</p>
+                    </div>
+                    <form action="#" class="autorisation__form-login">
+                        <div class="login-wrap">
+                            <input placeholder="Username" type="text" class="autorisation__input Username">
+                            <input placeholder="Email Address" type="email" class="autorisation__input email">
+                            <input placeholder="Password" type="password" class="autorisation__input Password">
+                            <button class="blue-btn">Sign Up</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section class="autorisationOr">
+                <div class="autorisationOr__container">
+                    <div class="autorisation__title-wrap">
+                        <h1 class="autorisation__title autorisation__title_mini">Or</h1>
+                        <p class="autorisation__subtitle">Log in with...</p>
+                    </div>
+                    <div class="autorisation__methods-wrap">
+                        <div class="method__btn">
+                            <div class="btn-wrap">
+                                <img src="./img/ui/Apple.svg" alt="z" class="method__btn-pic">
+                                <p class="method__btn-text">Log in with Apple</p>
+                            </div>
+                        </div>
+                        <div class="method__btn">
+                            <div class="btn-wrap">
+                                <img src="./img/ui/G_logo.svg" alt="z" class="method__btn-pic">
+                                <p class="method__btn-text">Log in with Google</p>
+                            </div>
+                        </div>
+                        <div class="method__btn">
+                            <div class="btn-wrap">
+                                <img src="./img/ui/Facebook.svg" alt="z" class="method__btn-pic">
+                                <p class="method__btn-text">Log in with Facebook</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="signup.html" class="create-acc">Don’t have an account? <span>Create One.</span></a>
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+    <script src="./js/jquery-3.7.0.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

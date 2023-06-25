@@ -1,0 +1,230 @@
+.container__about {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1282px;
+    border-bottom: 1px solid #828282;
+}
+.mission__inner {
+    text-align: center;
+    max-width: 1154px;
+    margin: 0 auto;
+}
+.mission__titles {
+    margin-bottom: 186px;
+}
+.mission__logo-pic {
+    width: 326px;
+    height: 93px;
+    margin-bottom: 48px;
+}
+.blue__top-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    color: #306EF7;
+}
+.mission__main-title {
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+    max-width: 938px;
+    margin: 0 auto;
+}
+.misson__subtitle {
+    font-size: 30px;
+    line-height: 45px;
+    max-width: 994px;
+    margin: 0 auto;
+}
+@media (max-width:1024px) {
+    .mission__titles {
+        margin-bottom: 100px;
+    }
+    .mission__logo-pic {
+        width: 306px;
+        height: 73px;
+        margin-bottom: 38px;
+    }
+    .blue__top-title {
+        font-size: 20px;
+        line-height: 33px;
+    }
+    .mission__main-title {
+        font-size: 55px;
+        line-height: 80px;
+    }
+    .misson__subtitle {
+        font-size: 20px;
+        line-height: 35px;
+        max-width: 700px;
+    }
+}
+@media (max-width:768px) {
+    .main {
+        padding-top: 100px;
+    }
+    .mission__main-title {
+        font-size: 35px;
+        line-height: 60px;
+        max-width: 600px;
+    }
+    .misson__subtitle {
+        font-size: 18px;
+        line-height: 30px;
+        max-width: 580px;
+    }
+   
+}
+@media (max-width:320px) {
+    .mission__logo-pic {
+        width: 206px;
+        margin-bottom: 20px;
+    }
+    .mission__main-title {
+        font-size: 35px;
+        line-height: 40px;
+        max-width: none;
+        margin-bottom: 20px;
+    }
+}
+.mission__paragraph {
+    padding-bottom: 54px;
+    text-align: start;
+    font-size: 28px;
+    line-height: 42px;
+}
+@media (max-width:1024px) {
+    .mission__paragraph {
+        padding-bottom: 24px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+}
+@media (max-width:768px) {
+    .mission__paragraph {
+        padding-bottom: 20px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+.team {
+    margin-top: 188px;
+}
+.team__inner {
+    max-width: 1058px;
+    margin: 0 auto;
+}
+.team__titles {
+    margin-bottom: 60px;
+}
+.blue__top-title {
+    text-align: center;
+}
+.mission__main-title {
+    text-align: center;
+}
+.creators__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.creator__card {
+    text-align: center;
+}
+.creator__pic {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    margin-bottom: 17px;
+}
+.creator__name {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 52px;
+}
+.creator__post {
+    font-size: 19px;
+    line-height: 28px;
+    color: #7F7F7F;
+    margin-bottom: 21px;
+}
+.creator__twitter {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding-right: 22px;
+    background-image: url("../img/ui/rt-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 14px 16px;
+    background-position: right center;
+}
+
+@media (max-width:1024px) {
+    .team {
+        margin-top: 100px;
+    }
+    .team__inner {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:768px) {
+    .team__inner {
+        max-width: 580px;
+        margin: 0 auto;
+    }
+    .creator__pic {
+        width: 90px;
+        height: 90px;
+    }
+    .creator__name {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .creator__post {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 18px;
+    }
+    .creator__twitter {
+        font-size: 16px;
+        line-height: 25px;
+        background-size: 10px 12px;
+    }
+}
+@media (max-width:425px) {
+    .creators__wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .creator__card {
+        text-align: start;
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    .creator__body {
+        margin-left: 20px;
+    }
+    .creator__pic {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 0;
+    }
+    .creator__name {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .creator__post {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .creator__twitter {
+        font-size: 18px;
+        line-height: 22px;
+        padding-right: 22px;
+    }
+}

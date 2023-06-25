@@ -1,0 +1,144 @@
+.getstarted {
+    margin-top: 188px;
+}
+.container {
+}
+.getstarted__container {
+}
+.getstarted__inner {
+    max-width: 910px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+.getstarted__logo-pic {
+    width: 154px;
+    height: 156px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.getstarted__main-title {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 150px;
+}
+.getstarted__subtitle {
+    font-size: 43px;
+    line-height: 64px;
+    margin-bottom: 14px;
+}
+.blue-btn {
+}
+.online {
+    padding-top: 26px;
+    display: flex;
+    max-width: 750px;
+    align-items: center;
+    margin: 0 auto;
+}
+.online-pic {
+    width: 37px;
+    height: 37px;
+    margin-right: 10px;
+}
+.online-text {
+    font-size: 38px;
+    line-height: 57px;
+    text-align: center;
+    color: #707070;
+    align-items: center;
+}
+.online-text span {
+    color: #fff;
+    font-weight: 600;
+}
+
+@media (max-width:1024px) {
+    .getstarted {
+        margin-top: 100px;
+    }
+    .getstarted__inner {
+        max-width: 768px;
+    }
+    .getstarted__logo-pic {
+        width: 134px;
+        height: 136px;
+    }
+    .getstarted__main-title {
+        font-size: 70px;
+        line-height: 100px;
+    }
+    .getstarted__subtitle {
+        font-size: 30px;
+        line-height: 64px;
+        margin-bottom: 14px;
+    }
+    .online-text {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .online {
+        padding-top: 26px;
+        max-width: 58%;
+    }
+    .online-pic {
+        width: 28px;
+        height: 28px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .getstarted__inner {
+        max-width: 580px;
+    }
+    .getstarted__logo-pic {
+        width: 90px;
+        height: 90px;
+    }
+    .getstarted__main-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .getstarted__subtitle {
+        font-size: 24px;
+        line-height: 46px;
+    }
+    .online-text {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .online {
+        padding-top: 26px;
+        max-width: 72%;
+        margin: 0 auto;
+    }
+    .online-pic {
+        width: 20px;
+        height: 20px;
+        margin-right: 6px;
+    }
+}
+@media (max-width:425px) {
+    .getstarted__main-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+@media (max-width:375px) {
+    .getstarted__main-title {
+        font-size: 35px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .getstarted__subtitle {
+        font-size: 20px;
+        line-height: 30px;
+        max-width: none;
+    }
+    .online {
+        padding-top: 26px;
+        max-width: 82%;
+        margin: 0 auto;
+    }
+}

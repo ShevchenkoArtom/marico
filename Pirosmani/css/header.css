@@ -1,0 +1,233 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+.header:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 3;
+}
+.container {
+    max-width: 1670px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    align-items: center;
+    position: relative;
+}
+.logo {
+    z-index: 3;
+}
+.logo-pic {
+}
+.navigation {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    z-index: 4;
+    align-items: center;
+}
+.nav__list {
+    display: flex;
+}
+.nav__item {
+    margin-right: 38px;
+}
+.nav__item:last-child {
+    margin-right: 0;
+}
+.nav__link {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 32px;
+    color: #707070;
+    transition: ease-in-out .3s all;
+}
+.nav__link:hover {
+    color: #3C82F4;
+}
+.nav__link.nav__link_active {
+    color: #3C82F4;
+}
+.arrow_down {
+    display: none;
+}
+.nav__submenu {
+    display: none;
+}
+.nav__submenu-item {
+}
+.nav__submenu-link {
+}
+.autofication {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+.autofication__login {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #707070;   
+    margin-right: 24px; 
+    transition: ease-in-out .3s all
+}
+.autofication__login:hover {
+    color: #3C82F4;
+}
+.autofication__login.autofication__login_active {
+    color: #2B62DB;
+}
+.autofication__signup {
+    padding: 12px 20px 13px 22px;
+    background-color: #3C82F4;
+    transition:  ease-in-out .3s all;
+    border-radius: 8px;
+    border: 2px solid #3C82F4;
+}
+.autofication__signup:hover {
+    background-color: transparent;
+    color: #3C82F4;
+}
+
+.header__burger {
+    display: none;
+}
+
+main {
+    color: #fff;
+    padding-top: 160px;
+}
+
+@media (max-width:1024px) {
+    .logo-pic {
+        width: 186px;
+        height: 46px;
+    }
+    .nav__link {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .header__inner {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    .autofication a {
+        font-size: 16px;
+    }
+    .autofication__signup {
+        padding: 8px 16px 9px 18px;
+    }
+    .navigation {
+        width: 70%;
+    }
+}
+
+
+@media (max-width:768px) {
+    body.lock {
+        overflow-y: hidden;
+    }
+        .header__burger {
+            display: block;
+            position: relative;
+            width: 30px;
+            height: 20px;
+            z-index: 3;
+        }
+        .header__burger span {
+            position: absolute;
+            background-color: #fff;
+            width: 100%;
+            height: 2px;
+            left: 0;
+            top: 9px;
+            transition: ease-in-out .3s all;
+        }
+        .header__burger:before,
+        .header__burger:after {
+            content: "";
+            background-color: #fff;
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            left: 0;
+            transition: ease-in-out .3s all;
+        }
+        .header__burger:before {
+            top: 0;
+        }
+        .header__burger::after {
+            bottom: 0;
+        }
+        .header__burger.active:before {
+            transform: rotate(45deg);
+            top: 9px;
+        }
+        .header__burger.active:after {
+            transform: rotate(-45deg);
+            bottom: 9px;
+        }
+        .header__burger.active span {
+            transform: scale(0);
+        }
+        .navigation {
+            position: fixed;
+            top: -100%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            backdrop-filter: blur(15px);
+            background: rgb(0, 0, 0, .7);
+            z-index: 2;
+            padding: 180px 0 70px 40px;
+            flex-direction: column;
+            align-items: start;
+            transition: ease-in-out .3s all;
+            justify-content: normal;
+            overflow: auto;
+        }
+        .navigation.active {
+            top: -10%;
+            height: 115%;
+        }
+        .nav__list {
+            flex-direction: column;
+            position: relative;
+        }
+        .nav__item {
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+        .nav__link {
+            font-size: 31px;
+            line-height: 42px;
+        }
+        .autofication {
+            margin-top: 50px;
+        }
+        .autofication a {
+            font-size: 26px;
+        }
+        .header__inner {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .logo-pic {
+            width: 176px;
+            height: 36px;
+        }
+}
